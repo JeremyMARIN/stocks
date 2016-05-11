@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Stocks</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<header id="header">
+			<div class="panel round">
+				<h2 class="text-centered">Stock Quotes Display</h2>
+			</div>
+		</header>
+
+		<div id="content">
+			<div id="stocks-container">
+				<div class="panel round">
+					<div class="bar-container">
+						<div class="ticker"></div>
+						<div class="bar red"></div>
+					</div>
+					<div class="bar-container">
+						<div class="ticker"></div>
+						<div class="bar green"></div>
+					</div>
+					<div class="bar-container">
+						<div class="ticker"></div>
+						<div class="bar blue"></div>
+					</div>
+				</div>
+			</div>
+			<div id="form-container" class="panel round">
+				<form>
+					<label for="stock-1">Stock 1: </label><input id="stock-1" type="text" name="stock-1" placeholder="AAPL" /><br />
+					<label for="stock-2">Stock 2: </label><input id="stock-2" type="text" name="stock-2" placeholder="MSFT" /><br />
+					<label for="stock-3">Stock 3: </label><input id="stock-3" type="text" name="stock-3" placeholder="YHOO" /><br />
+					<button id="submit" type="button" class="radius">Submit</button>
+				</form>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

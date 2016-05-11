@@ -1,0 +1,143 @@
+h2 {
+	margin: 0;
+}
+
+body {
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+form {
+	margin-bottom: 0;
+}
+input[type="text"] {
+	float: right;
+	border-width: 1px;
+	width: 75%;
+	height: 24px;
+	text-align: center;
+}
+button {
+	display: block;
+	margin: auto;
+	overflow: hidden;
+	font-size: 1.2em;
+}
+label {
+	display: inline-block;
+	margin-bottom: 16px;
+	width: 20%;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+a:link {
+	color: #f0bb00;
+}
+
+a:visited {
+	color: #3ea2dc;
+}
+
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.panel {
+	color: white;
+	background-color: rgba(60, 60, 60, 0.8);
+	margin: 8px;
+	padding: 16px;
+}
+
+.grow {
+	transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+	transform: scale(1.1);
+}
+
+.text-centered {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.round {
+	border-radius: 25px;
+}
+
+.radius {
+	border-radius: 10px;
+}
+
+.bar-container {
+	width: 100%;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.ticker {
+	width: 10%;
+	float: left;
+	text-align: right;
+	line-height: 1.5em;
+	padding-right: 8px;
+}
+.bar {
+	height: 24px;
+	overflow: hidden;
+	border-radius: 8px;
+	width: 0;
+}
+
+.red {
+	background-color: rgb(205, 102, 102);
+}
+.green {
+	background-color: rgb(102, 205, 102);
+}
+.blue {
+	background-color: rgb(102, 102, 205);
+}
+
+#form-container {
+	position: absolute;
+	bottom: 5%;
+	left: 0;
+	right: 0;
+	width: 40%;
+	margin: auto;
+	padding: 24px;
+}
+
+#stocks-container {
+	position: absolute;
+	bottom: 45%;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+
+#header, #content {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	width: 70%;
+}
+
+#content {
+	width: 100%;
+}
